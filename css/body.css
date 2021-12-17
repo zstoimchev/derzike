@@ -4,9 +4,8 @@ body{
     background-size: cover;
 }
 p{
-    width: 350px;
+    width: 320px;
 
-    font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px  solid black;
     border-radius: 20px;
@@ -15,4 +14,23 @@ p{
     margin-right: auto;
     padding: 20px;
     font-size: 22px;
+}
+
+ul{
+    font-style: italic;
+    font-size: 21px;
+    
+    display: table;
+    margin: 0 auto;
+}
+h6{
+    display: table;
+    margin: 0 auto;
+}
+h1{
+    display: table;
+    margin: 0 auto;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
 }
