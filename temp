@@ -25,4 +25,9 @@
         </div>
     </footer>
 
-    
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
