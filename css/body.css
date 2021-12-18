@@ -15,7 +15,6 @@ p{
     padding: 20px;
     font-size: 22px;
 }
-
 ul{
     font-style: italic;
     font-size: 21px;
@@ -38,9 +37,9 @@ h1{
 button{
     border: solid;
     border-radius: 25px;
-  width: 350px;
-  padding: 25px;
-  font-size: 22px;
+    width: 350px;
+    padding: 25px;
+    font-size: 22px;
     cursor: pointer;
 
     display: table;
