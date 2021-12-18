@@ -1,20 +1,28 @@
 /*work in progress*/
 @media screen and (max-resolution: 159dpi)
 {
-   <!--Set styles-->
+   body{
+      background-size: auto;
+   };
 }
 
 @media screen and (min-resolution: 160dpi and max-resolution: 239dpi)
 {
-   <!--Set styles-->
+   body{
+      background-size: auto;
+   };
 }
 
 @media screen and (min-resolution: 240dpi and max-resolution: 319dpi)
 {
-   <!--Set styles-->
+   body{
+      background-size: auto;
+   };
 }
 
 @media screen and (min-resolution: 320dpi)
 {
-   <!--Set styles-->
+   body{
+      background-size: auto;
+   };
 }
