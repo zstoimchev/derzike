@@ -14,6 +14,9 @@ p{
     margin-right: auto;
     padding: 20px;
     font-size: 22px;
+
+    background-color: rgba(135, 216, 205, 0.3);
+
 }
 ul{
     font-style: italic;
