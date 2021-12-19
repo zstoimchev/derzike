@@ -31,3 +31,17 @@
         display: block;
     }
 }
+
+@media screen and (min-resolution: 240dpi and max-resolution: 319dpi)
+{
+   body{
+      background-size: auto;
+   };
+}
+
+@media screen and (min-resolution: 320dpi)
+{
+   body{
+      background-size: auto;
+   };
+}

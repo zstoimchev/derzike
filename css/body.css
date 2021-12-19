@@ -52,3 +52,47 @@ button{
 
     background-color: rgba(135, 216, 205, 0.56);
 }
+
+footerc {
+    background-color: rgb(53, 74, 80);
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    height: 15px;
+    font-size: 12px;
+    font-style: italic;
+  }
+  
+  footerm {
+    background-color: rgb(53, 74, 80);
+    color: white;
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    width: 100px;
+  
+    padding-top: 10px;
+    height: 30px;
+  }
+  
+  table{
+    vertical-align: middle;
+    width: 35%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+ td{
+     border:1px solid black;
+     border-radius: 20px;
+     width: 50px;
+     padding: 20px;
+ }

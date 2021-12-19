@@ -1,28 +1,16 @@
 /*work in progress*/
-@media screen and (max-resolution: 159dpi)
-{
-   body{
-      background-size: auto;
-   };
+body{
+   background-color: royalblue;
 }
 
-@media screen and (min-resolution: 160dpi and max-resolution: 239dpi)
-{
-   body{
-      background-size: auto;
-   };
+@media screen and (min-width: 800px) {
+   body {
+       background-color: red;
+   }
 }
 
-@media screen and (min-resolution: 240dpi and max-resolution: 319dpi)
-{
-   body{
-      background-size: auto;
-   };
-}
-
-@media screen and (min-resolution: 320dpi)
-{
-   body{
-      background-size: auto;
-   };
+@media screen and (min-width: 400px) {
+   body {
+       background-color: green;
+   }
 }
