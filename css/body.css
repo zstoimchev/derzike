@@ -116,3 +116,11 @@ h5{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(135, 235, 205);
 }
+
+.brace{
+    background-image: url(/img/brace.jpg);   
+}
+
+.indexbg{
+    background-image: url('/img/watch.jpg');
+}

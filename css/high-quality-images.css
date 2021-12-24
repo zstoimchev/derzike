@@ -25,6 +25,10 @@ body{
    h6{
       font-size: 22px;
    }
+   .collapsible{
+      width: 25%;
+      margin-top: 8%;
+   }
 }
 
 @media screen and (max-width: 394px) {
@@ -49,23 +53,9 @@ body{
    h6{
       font-size:12px;
    }
+   .brace{
+      background-position: center;   
+      background-size:contain;      
+   }
 
-}
-
-@media screen and (max-width: 320px) {
-   body {
-       background-color: yellow;
-   }
-   .navbar a{
-      float:left;
-      padding: 20px;
-      color: white;
-      text-decoration: none;
-      font-size: 14px;
-   }
-   p{
-      font-size: 15px;
-      padding: 15px;
-   }
-   
 }
