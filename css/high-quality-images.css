@@ -3,15 +3,69 @@ body{
    background-color: royalblue;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 1920px) {
    body {
-       background-color: red;
+       background-color: rosybrown;
+       background-size: cover;
+   }
+   p{
+      width: 25%;
+      font-size: 22px;
+      padding: 25px;
+   }
+   button{
+      width: 30%;
+   }
+   footerc{
+      font-size: 20px;
+   }
+   .empty{
+      height: 150px;
+   }
+   h6{
+      font-size: 22px;
    }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 394px) {
    body {
-       background-color: green;
+       background-color: royalblue;
+
+       background-repeat:no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
    }
+   p{
+      width:67.3%;
+      font-size: 18px;
+      padding: 25px;
+   }
+   button{
+      width: 75%;
+   }
+   footerc{
+      font-size: 10px;
+   }
+   h6{
+      font-size:12px;
+   }
+
 }
 
+@media screen and (max-width: 320px) {
+   body {
+       background-color: yellow;
+   }
+   .navbar a{
+      float:left;
+      padding: 20px;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+   }
+   p{
+      font-size: 15px;
+      padding: 15px;
+   }
+   
+}
