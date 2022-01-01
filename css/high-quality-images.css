@@ -25,6 +25,10 @@ body{
    h6{
       font-size: 22px;
    }
+   .collapsible{
+      width: 25%;
+      margin-top: 8%;
+   }
 }
 
 @media screen and (max-width: 394px) {
@@ -37,7 +41,7 @@ body{
    }
    p{
       width:67.3%;
-      font-size: 18px;
+      font-size: 16.8px;
       padding: 25px;
    }
    button{
@@ -49,23 +53,11 @@ body{
    h6{
       font-size:12px;
    }
-
-}
-
-@media screen and (max-width: 320px) {
-   body {
-       background-color: yellow;
+   .brace{
+      background-position: center;   
+      background-size:contain;      
    }
-   .navbar a{
-      float:left;
-      padding: 20px;
-      color: white;
-      text-decoration: none;
-      font-size: 14px;
+   .empty{
+      height: 100px;
    }
-   p{
-      font-size: 15px;
-      padding: 15px;
-   }
-   
 }
