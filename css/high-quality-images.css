@@ -41,7 +41,7 @@ body{
    }
    p{
       width:67.3%;
-      font-size: 18px;
+      font-size: 16.8px;
       padding: 25px;
    }
    button{
@@ -57,5 +57,7 @@ body{
       background-position: center;   
       background-size:contain;      
    }
-
+   .empty{
+      height: 100px;
+   }
 }

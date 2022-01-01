@@ -45,3 +45,10 @@
       background-size: auto;
    };
 }
+
+
+<button class="collapsible">Load quote</button>
+    <div class="content">
+        <img class="margin" src="img/brace.jpg" alt="err">
+    </div>
+    <script src="js/collaps.js"></script>
