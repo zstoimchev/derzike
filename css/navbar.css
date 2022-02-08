@@ -20,7 +20,7 @@
     background-color: #000;
 }
 
-.active {
+.active, .activeN {
     background-color: #04AA6D;
 }
 .active-nav {
