@@ -72,12 +72,14 @@ body {
     content: "";
     display: table;
     clear: both;
+
   }
   
   /* Six columns side by side */
   .column {
     float: left;
     width: 16.66%;
+
   }
   
   /* Add a transparency effect for thumnbail images */
@@ -85,7 +87,7 @@ body {
     opacity: 0.15;
   }
   
-  .active,
+  .active, .column:hover
   .demo:hover {
     opacity: 1;
   }
@@ -100,3 +102,21 @@ body {
     width: 100%;
     text-align: center;
   }
+
+  /* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
